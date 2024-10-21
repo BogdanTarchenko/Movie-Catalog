@@ -39,6 +39,11 @@
 		FC3895DD2CC6634600BA2784 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895DC2CC6634600BA2784 /* LocalizedString.swift */; };
 		FC3895DF2CC66B2400BA2784 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895DE2CC66B2400BA2784 /* String+Extensions.swift */; };
 		FC3895E22CC66E5800BA2784 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895E12CC66E5800BA2784 /* SnapKit */; };
+		FC3895E42CC66EFC00BA2784 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895E32CC66EFC00BA2784 /* HTTPClient.swift */; };
+		FC3895E62CC66F0800BA2784 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895E52CC66F0800BA2784 /* APIEndpoint.swift */; };
+		FC3895E92CC66F2F00BA2784 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895E82CC66F2F00BA2784 /* Alamofire */; };
+		FC3895EB2CC66F4000BA2784 /* AlamofireHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895EA2CC66F4000BA2784 /* AlamofireHTTPClient.swift */; };
+		FC3895ED2CC66F5400BA2784 /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895EC2CC66F5400BA2784 /* BaseURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +79,10 @@
 		FC3895D52CC6611D00BA2784 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FC3895DC2CC6634600BA2784 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 		FC3895DE2CC66B2400BA2784 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FC3895E32CC66EFC00BA2784 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		FC3895E52CC66F0800BA2784 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		FC3895EA2CC66F4000BA2784 /* AlamofireHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireHTTPClient.swift; sourceTree = "<group>"; };
+		FC3895EC2CC66F5400BA2784 /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3895E92CC66F2F00BA2784 /* Alamofire in Frameworks */,
 				FC3895A32CC65E7500BA2784 /* KeychainAccess in Frameworks */,
 				FC3895E22CC66E5800BA2784 /* SnapKit in Frameworks */,
 			);
@@ -333,6 +343,10 @@
 		FC3895B52CC65FE100BA2784 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895E32CC66EFC00BA2784 /* HTTPClient.swift */,
+				FC3895E52CC66F0800BA2784 /* APIEndpoint.swift */,
+				FC3895EA2CC66F4000BA2784 /* AlamofireHTTPClient.swift */,
+				FC3895EC2CC66F5400BA2784 /* BaseURL.swift */,
 				FC3895B62CC65FE700BA2784 /* Endpoints */,
 			);
 			path = Network;
@@ -378,6 +392,7 @@
 			packageProductDependencies = (
 				FC3895A22CC65E7500BA2784 /* KeychainAccess */,
 				FC3895E12CC66E5800BA2784 /* SnapKit */,
+				FC3895E82CC66F2F00BA2784 /* Alamofire */,
 			);
 			productName = "Movie-Catalog";
 			productReference = FC3895712CC659C400BA2784 /* Movie-Catalog.app */;
@@ -411,6 +426,7 @@
 			packageReferences = (
 				FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				FC3895E02CC66E5800BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FC3895E72CC66F2F00BA2784 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = FC3895722CC659C400BA2784 /* Products */;
 			projectDirPath = "";
@@ -447,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3895DF2CC66B2400BA2784 /* String+Extensions.swift in Sources */,
+				FC3895E62CC66F0800BA2784 /* APIEndpoint.swift in Sources */,
 				FC3895DD2CC6634600BA2784 /* LocalizedString.swift in Sources */,
 				FC3895CE2CC660E800BA2784 /* FeedViewModel.swift in Sources */,
 				FC3895C42CC6609F00BA2784 /* FavouritesViewController.swift in Sources */,
@@ -455,14 +472,17 @@
 				FC3895BE2CC6607E00BA2784 /* SignUpViewController.swift in Sources */,
 				FC3895D02CC660EE00BA2784 /* MoviesViewModel.swift in Sources */,
 				FC3895C62CC660AA00BA2784 /* ProfileViewController.swift in Sources */,
+				FC3895EB2CC66F4000BA2784 /* AlamofireHTTPClient.swift in Sources */,
 				FC3895752CC659C400BA2784 /* AppDelegate.swift in Sources */,
 				FC3895BA2CC6606F00BA2784 /* WelcomeViewController.swift in Sources */,
 				FC3895D22CC660F700BA2784 /* FavouritesViewModel.swift in Sources */,
+				FC3895ED2CC66F5400BA2784 /* BaseURL.swift in Sources */,
 				FC3895772CC659C400BA2784 /* SceneDelegate.swift in Sources */,
 				FC3895C82CC660D400BA2784 /* WelcomeViewModel.swift in Sources */,
 				FC3895BC2CC6607700BA2784 /* SignInViewController.swift in Sources */,
 				FC3895CA2CC660DA00BA2784 /* SignInViewModel.swift in Sources */,
 				FC3895D42CC660FF00BA2784 /* ProfileViewModel.swift in Sources */,
+				FC3895E42CC66EFC00BA2784 /* HTTPClient.swift in Sources */,
 				FC3895A02CC65E6900BA2784 /* AppRouter.swift in Sources */,
 				FC3895C02CC6608800BA2784 /* FeedViewController.swift in Sources */,
 				FC3895C22CC6609300BA2784 /* MoviesViewController.swift in Sources */,
@@ -696,6 +716,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		FC3895E72CC66F2F00BA2784 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -708,6 +736,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC3895E02CC66E5800BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		FC3895E82CC66F2F00BA2784 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3895E72CC66F2F00BA2784 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
