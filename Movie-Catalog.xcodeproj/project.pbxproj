@@ -21,6 +21,24 @@
 		FC38959C2CC65AEA00BA2784 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */; };
 		FC3895A02CC65E6900BA2784 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC38959F2CC65E6900BA2784 /* AppRouter.swift */; };
 		FC3895A32CC65E7500BA2784 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895A22CC65E7500BA2784 /* KeychainAccess */; };
+		FC3895BA2CC6606F00BA2784 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895B92CC6606F00BA2784 /* WelcomeViewController.swift */; };
+		FC3895BC2CC6607700BA2784 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895BB2CC6607700BA2784 /* SignInViewController.swift */; };
+		FC3895BE2CC6607E00BA2784 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895BD2CC6607E00BA2784 /* SignUpViewController.swift */; };
+		FC3895C02CC6608800BA2784 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895BF2CC6608800BA2784 /* FeedViewController.swift */; };
+		FC3895C22CC6609300BA2784 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895C12CC6609300BA2784 /* MoviesViewController.swift */; };
+		FC3895C42CC6609F00BA2784 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895C32CC6609F00BA2784 /* FavouritesViewController.swift */; };
+		FC3895C62CC660AA00BA2784 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895C52CC660AA00BA2784 /* ProfileViewController.swift */; };
+		FC3895C82CC660D400BA2784 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895C72CC660D400BA2784 /* WelcomeViewModel.swift */; };
+		FC3895CA2CC660DA00BA2784 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895C92CC660DA00BA2784 /* SignInViewModel.swift */; };
+		FC3895CC2CC660E300BA2784 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895CB2CC660E300BA2784 /* SignUpViewModel.swift */; };
+		FC3895CE2CC660E800BA2784 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895CD2CC660E800BA2784 /* FeedViewModel.swift */; };
+		FC3895D02CC660EE00BA2784 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895CF2CC660EE00BA2784 /* MoviesViewModel.swift */; };
+		FC3895D22CC660F700BA2784 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895D12CC660F700BA2784 /* FavouritesViewModel.swift */; };
+		FC3895D42CC660FF00BA2784 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895D32CC660FF00BA2784 /* ProfileViewModel.swift */; };
+		FC3895D62CC6611D00BA2784 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895D52CC6611D00BA2784 /* CustomButton.swift */; };
+		FC3895D92CC6614200BA2784 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895D82CC6614200BA2784 /* SnapKit */; };
+		FC3895DB2CC6614200BA2784 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895DA2CC6614200BA2784 /* SnapKit-Dynamic */; };
+		FC3895DD2CC6634600BA2784 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895DC2CC6634600BA2784 /* LocalizedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +57,22 @@
 		FC3895942CC65AEA00BA2784 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
 		FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
 		FC38959F2CC65E6900BA2784 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		FC3895B92CC6606F00BA2784 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FC3895BB2CC6607700BA2784 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FC3895BD2CC6607E00BA2784 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FC3895BF2CC6608800BA2784 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FC3895C12CC6609300BA2784 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		FC3895C32CC6609F00BA2784 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		FC3895C52CC660AA00BA2784 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FC3895C72CC660D400BA2784 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		FC3895C92CC660DA00BA2784 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		FC3895CB2CC660E300BA2784 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		FC3895CD2CC660E800BA2784 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		FC3895CF2CC660EE00BA2784 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		FC3895D12CC660F700BA2784 /* FavouritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewModel.swift; sourceTree = "<group>"; };
+		FC3895D32CC660FF00BA2784 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		FC3895D52CC6611D00BA2784 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FC3895DC2CC6634600BA2784 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3895A32CC65E7500BA2784 /* KeychainAccess in Frameworks */,
+				FC3895D92CC6614200BA2784 /* SnapKit in Frameworks */,
+				FC3895DB2CC6614200BA2784 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +135,7 @@
 				FC38957D2CC659C600BA2784 /* Assets.xcassets */,
 				FC3895822CC659C600BA2784 /* Info.plist */,
 				FC38958B2CC65A5A00BA2784 /* Localizable.xcstrings */,
+				FC3895DC2CC6634600BA2784 /* LocalizedString.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -167,7 +204,7 @@
 			children = (
 				FC3895AA2CC65F1900BA2784 /* FeedScreen */,
 				FC3895AB2CC65F1D00BA2784 /* MoviesScreen */,
-				FC3895AC2CC65F2300BA2784 /* FavouriteScreen */,
+				FC3895AC2CC65F2300BA2784 /* FavouritesScreen */,
 				FC3895AD2CC65F3400BA2784 /* ProfileScreen */,
 			);
 			path = Main;
@@ -176,6 +213,8 @@
 		FC3895A72CC65EDE00BA2784 /* WelcomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895B92CC6606F00BA2784 /* WelcomeViewController.swift */,
+				FC3895C72CC660D400BA2784 /* WelcomeViewModel.swift */,
 			);
 			path = WelcomeScreen;
 			sourceTree = "<group>";
@@ -183,6 +222,8 @@
 		FC3895A82CC65EEA00BA2784 /* SignInScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895BB2CC6607700BA2784 /* SignInViewController.swift */,
+				FC3895C92CC660DA00BA2784 /* SignInViewModel.swift */,
 			);
 			path = SignInScreen;
 			sourceTree = "<group>";
@@ -190,6 +231,8 @@
 		FC3895A92CC65EF100BA2784 /* SignUpScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895BD2CC6607E00BA2784 /* SignUpViewController.swift */,
+				FC3895CB2CC660E300BA2784 /* SignUpViewModel.swift */,
 			);
 			path = SignUpScreen;
 			sourceTree = "<group>";
@@ -197,6 +240,8 @@
 		FC3895AA2CC65F1900BA2784 /* FeedScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895BF2CC6608800BA2784 /* FeedViewController.swift */,
+				FC3895CD2CC660E800BA2784 /* FeedViewModel.swift */,
 			);
 			path = FeedScreen;
 			sourceTree = "<group>";
@@ -204,20 +249,26 @@
 		FC3895AB2CC65F1D00BA2784 /* MoviesScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895C12CC6609300BA2784 /* MoviesViewController.swift */,
+				FC3895CF2CC660EE00BA2784 /* MoviesViewModel.swift */,
 			);
 			path = MoviesScreen;
 			sourceTree = "<group>";
 		};
-		FC3895AC2CC65F2300BA2784 /* FavouriteScreen */ = {
+		FC3895AC2CC65F2300BA2784 /* FavouritesScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895C32CC6609F00BA2784 /* FavouritesViewController.swift */,
+				FC3895D12CC660F700BA2784 /* FavouritesViewModel.swift */,
 			);
-			path = FavouriteScreen;
+			path = FavouritesScreen;
 			sourceTree = "<group>";
 		};
 		FC3895AD2CC65F3400BA2784 /* ProfileScreen */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895C52CC660AA00BA2784 /* ProfileViewController.swift */,
+				FC3895D32CC660FF00BA2784 /* ProfileViewModel.swift */,
 			);
 			path = ProfileScreen;
 			sourceTree = "<group>";
@@ -225,6 +276,7 @@
 		FC3895AE2CC65F4D00BA2784 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895D52CC6611D00BA2784 /* CustomButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -324,6 +376,8 @@
 			name = "Movie-Catalog";
 			packageProductDependencies = (
 				FC3895A22CC65E7500BA2784 /* KeychainAccess */,
+				FC3895D82CC6614200BA2784 /* SnapKit */,
+				FC3895DA2CC6614200BA2784 /* SnapKit-Dynamic */,
 			);
 			productName = "Movie-Catalog";
 			productReference = FC3895712CC659C400BA2784 /* Movie-Catalog.app */;
@@ -355,6 +409,7 @@
 			mainGroup = FC3895682CC659C400BA2784;
 			packageReferences = (
 				FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = FC3895722CC659C400BA2784 /* Products */;
 			projectDirPath = "";
@@ -390,9 +445,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3895DD2CC6634600BA2784 /* LocalizedString.swift in Sources */,
+				FC3895CE2CC660E800BA2784 /* FeedViewModel.swift in Sources */,
+				FC3895C42CC6609F00BA2784 /* FavouritesViewController.swift in Sources */,
+				FC3895D62CC6611D00BA2784 /* CustomButton.swift in Sources */,
+				FC3895CC2CC660E300BA2784 /* SignUpViewModel.swift in Sources */,
+				FC3895BE2CC6607E00BA2784 /* SignUpViewController.swift in Sources */,
+				FC3895D02CC660EE00BA2784 /* MoviesViewModel.swift in Sources */,
+				FC3895C62CC660AA00BA2784 /* ProfileViewController.swift in Sources */,
 				FC3895752CC659C400BA2784 /* AppDelegate.swift in Sources */,
+				FC3895BA2CC6606F00BA2784 /* WelcomeViewController.swift in Sources */,
+				FC3895D22CC660F700BA2784 /* FavouritesViewModel.swift in Sources */,
 				FC3895772CC659C400BA2784 /* SceneDelegate.swift in Sources */,
+				FC3895C82CC660D400BA2784 /* WelcomeViewModel.swift in Sources */,
+				FC3895BC2CC6607700BA2784 /* SignInViewController.swift in Sources */,
+				FC3895CA2CC660DA00BA2784 /* SignInViewModel.swift in Sources */,
+				FC3895D42CC660FF00BA2784 /* ProfileViewModel.swift in Sources */,
 				FC3895A02CC65E6900BA2784 /* AppRouter.swift in Sources */,
+				FC3895C02CC6608800BA2784 /* FeedViewController.swift in Sources */,
+				FC3895C22CC6609300BA2784 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +686,14 @@
 				kind = branch;
 			};
 		};
+		FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -622,6 +701,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
+		};
+		FC3895D82CC6614200BA2784 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FC3895DA2CC6614200BA2784 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
