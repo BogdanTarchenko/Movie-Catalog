@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class SignInViewModel {
+    
+    private let router: AppRouter
+    
+    init(router: AppRouter) {
+        self.router = router
+    }
+}

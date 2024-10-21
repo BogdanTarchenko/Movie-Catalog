@@ -36,9 +36,9 @@
 		FC3895D22CC660F700BA2784 /* FavouritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895D12CC660F700BA2784 /* FavouritesViewModel.swift */; };
 		FC3895D42CC660FF00BA2784 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895D32CC660FF00BA2784 /* ProfileViewModel.swift */; };
 		FC3895D62CC6611D00BA2784 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895D52CC6611D00BA2784 /* CustomButton.swift */; };
-		FC3895D92CC6614200BA2784 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895D82CC6614200BA2784 /* SnapKit */; };
-		FC3895DB2CC6614200BA2784 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895DA2CC6614200BA2784 /* SnapKit-Dynamic */; };
 		FC3895DD2CC6634600BA2784 /* LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895DC2CC6634600BA2784 /* LocalizedString.swift */; };
+		FC3895DF2CC66B2400BA2784 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895DE2CC66B2400BA2784 /* String+Extensions.swift */; };
+		FC3895E22CC66E5800BA2784 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895E12CC66E5800BA2784 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +73,7 @@
 		FC3895D32CC660FF00BA2784 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		FC3895D52CC6611D00BA2784 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FC3895DC2CC6634600BA2784 /* LocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedString.swift; sourceTree = "<group>"; };
+		FC3895DE2CC66B2400BA2784 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3895A32CC65E7500BA2784 /* KeychainAccess in Frameworks */,
-				FC3895D92CC6614200BA2784 /* SnapKit in Frameworks */,
-				FC3895DB2CC6614200BA2784 /* SnapKit-Dynamic in Frameworks */,
+				FC3895E22CC66E5800BA2784 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +284,7 @@
 		FC3895AF2CC65FAA00BA2784 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895DE2CC66B2400BA2784 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -376,8 +377,7 @@
 			name = "Movie-Catalog";
 			packageProductDependencies = (
 				FC3895A22CC65E7500BA2784 /* KeychainAccess */,
-				FC3895D82CC6614200BA2784 /* SnapKit */,
-				FC3895DA2CC6614200BA2784 /* SnapKit-Dynamic */,
+				FC3895E12CC66E5800BA2784 /* SnapKit */,
 			);
 			productName = "Movie-Catalog";
 			productReference = FC3895712CC659C400BA2784 /* Movie-Catalog.app */;
@@ -405,11 +405,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = FC3895682CC659C400BA2784;
 			packageReferences = (
 				FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FC3895E02CC66E5800BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = FC3895722CC659C400BA2784 /* Products */;
 			projectDirPath = "";
@@ -445,6 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3895DF2CC66B2400BA2784 /* String+Extensions.swift in Sources */,
 				FC3895DD2CC6634600BA2784 /* LocalizedString.swift in Sources */,
 				FC3895CE2CC660E800BA2784 /* FeedViewModel.swift in Sources */,
 				FC3895C42CC6609F00BA2784 /* FavouritesViewController.swift in Sources */,
@@ -686,7 +688,7 @@
 				kind = branch;
 			};
 		};
-		FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		FC3895E02CC66E5800BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -702,15 +704,10 @@
 			package = FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
 			productName = KeychainAccess;
 		};
-		FC3895D82CC6614200BA2784 /* SnapKit */ = {
+		FC3895E12CC66E5800BA2784 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = FC3895E02CC66E5800BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
-		};
-		FC3895DA2CC6614200BA2784 /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FC3895D72CC6614200BA2784 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
