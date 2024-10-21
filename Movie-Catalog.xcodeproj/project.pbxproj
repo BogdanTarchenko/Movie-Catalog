@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		FC3895752CC659C400BA2784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895742CC659C400BA2784 /* AppDelegate.swift */; };
 		FC3895772CC659C400BA2784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895762CC659C400BA2784 /* SceneDelegate.swift */; };
-		FC3895792CC659C400BA2784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3895782CC659C400BA2784 /* ViewController.swift */; };
-		FC38957C2CC659C400BA2784 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FC38957B2CC659C400BA2784 /* Base */; };
 		FC38957E2CC659C600BA2784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC38957D2CC659C600BA2784 /* Assets.xcassets */; };
 		FC3895812CC659C600BA2784 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FC3895802CC659C600BA2784 /* Base */; };
+		FC38958C2CC65A5A00BA2784 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = FC38958B2CC65A5A00BA2784 /* Localizable.xcstrings */; };
+		FC3895962CC65AEA00BA2784 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC38958F2CC65AEA00BA2784 /* Manrope-Medium.ttf */; };
+		FC3895972CC65AEA00BA2784 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895902CC65AEA00BA2784 /* Manrope-SemiBold.ttf */; };
+		FC3895982CC65AEA00BA2784 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895912CC65AEA00BA2784 /* Manrope-Bold.ttf */; };
+		FC3895992CC65AEA00BA2784 /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895922CC65AEA00BA2784 /* Manrope-Regular.ttf */; };
+		FC38959A2CC65AEA00BA2784 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895932CC65AEA00BA2784 /* Manrope-Light.ttf */; };
+		FC38959B2CC65AEA00BA2784 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895942CC65AEA00BA2784 /* Manrope-ExtraLight.ttf */; };
+		FC38959C2CC65AEA00BA2784 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC3895712CC659C400BA2784 /* Movie-Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movie-Catalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3895742CC659C400BA2784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC3895762CC659C400BA2784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC3895782CC659C400BA2784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC38957B2CC659C400BA2784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC38957D2CC659C600BA2784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC3895802CC659C600BA2784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC3895822CC659C600BA2784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC38958B2CC65A5A00BA2784 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		FC38958F2CC65AEA00BA2784 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		FC3895902CC65AEA00BA2784 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		FC3895912CC65AEA00BA2784 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		FC3895922CC65AEA00BA2784 /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		FC3895932CC65AEA00BA2784 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
+		FC3895942CC65AEA00BA2784 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,53 @@
 		FC3895732CC659C400BA2784 /* Movie-Catalog */ = {
 			isa = PBXGroup;
 			children = (
-				FC3895742CC659C400BA2784 /* AppDelegate.swift */,
-				FC3895762CC659C400BA2784 /* SceneDelegate.swift */,
-				FC3895782CC659C400BA2784 /* ViewController.swift */,
-				FC38957A2CC659C400BA2784 /* Main.storyboard */,
-				FC38957D2CC659C600BA2784 /* Assets.xcassets */,
-				FC38957F2CC659C600BA2784 /* LaunchScreen.storyboard */,
-				FC3895822CC659C600BA2784 /* Info.plist */,
+				FC3895892CC65A1000BA2784 /* App */,
+				FC38958A2CC65A3700BA2784 /* Resources */,
 			);
 			path = "Movie-Catalog";
+			sourceTree = "<group>";
+		};
+		FC3895892CC65A1000BA2784 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895742CC659C400BA2784 /* AppDelegate.swift */,
+				FC3895762CC659C400BA2784 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC38958A2CC65A3700BA2784 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC38958D2CC65AA700BA2784 /* Fonts */,
+				FC38957F2CC659C600BA2784 /* LaunchScreen.storyboard */,
+				FC38957D2CC659C600BA2784 /* Assets.xcassets */,
+				FC3895822CC659C600BA2784 /* Info.plist */,
+				FC38958B2CC65A5A00BA2784 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC38958D2CC65AA700BA2784 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC38958E2CC65ABF00BA2784 /* Manrope */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FC38958E2CC65ABF00BA2784 /* Manrope */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895912CC65AEA00BA2784 /* Manrope-Bold.ttf */,
+				FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */,
+				FC3895942CC65AEA00BA2784 /* Manrope-ExtraLight.ttf */,
+				FC3895932CC65AEA00BA2784 /* Manrope-Light.ttf */,
+				FC38958F2CC65AEA00BA2784 /* Manrope-Medium.ttf */,
+				FC3895922CC65AEA00BA2784 /* Manrope-Regular.ttf */,
+				FC3895902CC65AEA00BA2784 /* Manrope-SemiBold.ttf */,
+			);
+			path = Manrope;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +175,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3895972CC65AEA00BA2784 /* Manrope-SemiBold.ttf in Resources */,
 				FC38957E2CC659C600BA2784 /* Assets.xcassets in Resources */,
 				FC3895812CC659C600BA2784 /* Base in Resources */,
-				FC38957C2CC659C400BA2784 /* Base in Resources */,
+				FC3895962CC65AEA00BA2784 /* Manrope-Medium.ttf in Resources */,
+				FC38959A2CC65AEA00BA2784 /* Manrope-Light.ttf in Resources */,
+				FC38959C2CC65AEA00BA2784 /* Manrope-ExtraBold.ttf in Resources */,
+				FC3895982CC65AEA00BA2784 /* Manrope-Bold.ttf in Resources */,
+				FC38958C2CC65A5A00BA2784 /* Localizable.xcstrings in Resources */,
+				FC38959B2CC65AEA00BA2784 /* Manrope-ExtraLight.ttf in Resources */,
+				FC3895992CC65AEA00BA2784 /* Manrope-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC3895792CC659C400BA2784 /* ViewController.swift in Sources */,
 				FC3895752CC659C400BA2784 /* AppDelegate.swift in Sources */,
 				FC3895772CC659C400BA2784 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +203,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC38957A2CC659C400BA2784 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC38957B2CC659C400BA2784 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC38957F2CC659C600BA2784 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -294,10 +342,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BUF892U9LY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Movie-Catalog/Info.plist";
+				INFOPLIST_FILE = "Movie-Catalog/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,10 +369,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BUF892U9LY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Movie-Catalog/Info.plist";
+				INFOPLIST_FILE = "Movie-Catalog/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
