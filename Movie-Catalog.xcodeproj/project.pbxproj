@@ -19,6 +19,8 @@
 		FC38959A2CC65AEA00BA2784 /* Manrope-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895932CC65AEA00BA2784 /* Manrope-Light.ttf */; };
 		FC38959B2CC65AEA00BA2784 /* Manrope-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895942CC65AEA00BA2784 /* Manrope-ExtraLight.ttf */; };
 		FC38959C2CC65AEA00BA2784 /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */; };
+		FC3895A02CC65E6900BA2784 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC38959F2CC65E6900BA2784 /* AppRouter.swift */; };
+		FC3895A32CC65E7500BA2784 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = FC3895A22CC65E7500BA2784 /* KeychainAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,7 @@
 		FC3895932CC65AEA00BA2784 /* Manrope-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Light.ttf"; sourceTree = "<group>"; };
 		FC3895942CC65AEA00BA2784 /* Manrope-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraLight.ttf"; sourceTree = "<group>"; };
 		FC3895952CC65AEA00BA2784 /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FC38959F2CC65E6900BA2784 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3895A32CC65E7500BA2784 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +72,11 @@
 		FC3895732CC659C400BA2784 /* Movie-Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				FC3895AF2CC65FAA00BA2784 /* Extensions */,
 				FC3895892CC65A1000BA2784 /* App */,
+				FC3895B02CC65FB800BA2784 /* Domain */,
+				FC3895B12CC65FC100BA2784 /* Data */,
+				FC38959D2CC65E5800BA2784 /* Presentation */,
 				FC38958A2CC65A3700BA2784 /* Resources */,
 			);
 			path = "Movie-Catalog";
@@ -117,6 +125,187 @@
 			path = Manrope;
 			sourceTree = "<group>";
 		};
+		FC38959D2CC65E5800BA2784 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895A42CC65EB800BA2784 /* Welcome */,
+				FC3895A52CC65EBE00BA2784 /* Authorization */,
+				FC3895A62CC65ECD00BA2784 /* Main */,
+				FC3895AE2CC65F4D00BA2784 /* Components */,
+				FC38959E2CC65E6300BA2784 /* Routers */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FC38959E2CC65E6300BA2784 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				FC38959F2CC65E6900BA2784 /* AppRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		FC3895A42CC65EB800BA2784 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895A72CC65EDE00BA2784 /* WelcomeScreen */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FC3895A52CC65EBE00BA2784 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895A82CC65EEA00BA2784 /* SignInScreen */,
+				FC3895A92CC65EF100BA2784 /* SignUpScreen */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		FC3895A62CC65ECD00BA2784 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895AA2CC65F1900BA2784 /* FeedScreen */,
+				FC3895AB2CC65F1D00BA2784 /* MoviesScreen */,
+				FC3895AC2CC65F2300BA2784 /* FavouriteScreen */,
+				FC3895AD2CC65F3400BA2784 /* ProfileScreen */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FC3895A72CC65EDE00BA2784 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		FC3895A82CC65EEA00BA2784 /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
+		FC3895A92CC65EF100BA2784 /* SignUpScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUpScreen;
+			sourceTree = "<group>";
+		};
+		FC3895AA2CC65F1900BA2784 /* FeedScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FeedScreen;
+			sourceTree = "<group>";
+		};
+		FC3895AB2CC65F1D00BA2784 /* MoviesScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MoviesScreen;
+			sourceTree = "<group>";
+		};
+		FC3895AC2CC65F2300BA2784 /* FavouriteScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FavouriteScreen;
+			sourceTree = "<group>";
+		};
+		FC3895AD2CC65F3400BA2784 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+		FC3895AE2CC65F4D00BA2784 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC3895AF2CC65FAA00BA2784 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FC3895B02CC65FB800BA2784 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895B22CC65FC600BA2784 /* Entities */,
+				FC3895B32CC65FCB00BA2784 /* UseCases */,
+				FC3895B42CC65FD500BA2784 /* Repositories */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FC3895B12CC65FC100BA2784 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895B52CC65FE100BA2784 /* Network */,
+				FC3895B72CC65FF300BA2784 /* Models */,
+				FC3895B82CC6600100BA2784 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FC3895B22CC65FC600BA2784 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		FC3895B32CC65FCB00BA2784 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		FC3895B42CC65FD500BA2784 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FC3895B52CC65FE100BA2784 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC3895B62CC65FE700BA2784 /* Endpoints */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FC3895B62CC65FE700BA2784 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		FC3895B72CC65FF300BA2784 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC3895B82CC6600100BA2784 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,6 +322,9 @@
 			dependencies = (
 			);
 			name = "Movie-Catalog";
+			packageProductDependencies = (
+				FC3895A22CC65E7500BA2784 /* KeychainAccess */,
+			);
 			productName = "Movie-Catalog";
 			productReference = FC3895712CC659C400BA2784 /* Movie-Catalog.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +353,9 @@
 				Base,
 			);
 			mainGroup = FC3895682CC659C400BA2784;
+			packageReferences = (
+				FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = FC3895722CC659C400BA2784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -197,6 +392,7 @@
 			files = (
 				FC3895752CC659C400BA2784 /* AppDelegate.swift in Sources */,
 				FC3895772CC659C400BA2784 /* SceneDelegate.swift in Sources */,
+				FC3895A02CC65E6900BA2784 /* AppRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +605,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC3895A22CC65E7500BA2784 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3895A12CC65E7500BA2784 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC3895692CC659C400BA2784 /* Project object */;
 }
